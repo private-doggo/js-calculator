@@ -17,7 +17,7 @@ const keyPress = (e) => {
     }
     case 'equals-key': {
       try {
-        input.innerHTML = eval(input.innerHTML);
+        input.innerHTML = eval(input.innerHTML) || 'Error';
       }
       catch {
         input.innerHTML = 'Error';
