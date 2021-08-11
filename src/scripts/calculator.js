@@ -4,7 +4,6 @@ const input = document.querySelector('.input');
 const keyPress = (e) => {
   const key = e.target.closest('.key');
   if (!key) return false;
-  input.focus();
   if (key.hasAttribute('writable')) input.innerHTML += key.innerHTML;
   else switch (key.classList[2]) {
     case 'clear-key': {
