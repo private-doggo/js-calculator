@@ -3,6 +3,8 @@
 @import './base/reset';
 @import './base/vars';
 
+@import './components/calculator';
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #212529;
