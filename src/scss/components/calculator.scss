@@ -12,7 +12,12 @@
   font-size: 28px;
 }
 
+.calculator :not(.input){
+  user-select: none;
+}
+
 .input {
+  cursor: text;
   width: 100%;
   height: 100px;
   line-height: 30px;
